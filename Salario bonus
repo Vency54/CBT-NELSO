@@ -1,0 +1,21 @@
+double N1, N2, N3, M;
+Console.WriteLine("Digite a primeira nota");
+N1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite a segunda nota");
+N2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite a terceira nota");
+N3 = Convert.ToDouble(Console.ReadLine());
+M = (N1 + N2 + N3) / 3;
+
+if (M >= 7)
+{
+    Console.WriteLine("Aprovado");
+}
+else if (M < 7 && M >= 5)
+{
+    Console.WriteLine("Recuperação");
+}
+else
+{
+    Console.WriteLine("Reprovado");
+}
