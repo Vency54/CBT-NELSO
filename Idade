@@ -1,0 +1,16 @@
+int n1;
+
+Console.WriteLine("idade?");
+n1 = int.Parse(Console.ReadLine());
+if (n1 < 18)
+{
+    Console.WriteLine("criança");
+}
+else if (n1 >= 60)
+{
+    Console.WriteLine("idoso");
+}
+else
+{
+    Console.WriteLine("ADULTO");
+}
