@@ -1,0 +1,26 @@
+double N;
+Console.WriteLine("Digite um numero");
+N = Convert.ToDouble(Console.ReadLine());   
+if (N == 0)
+{
+    Console.WriteLine("Zero");
+}
+else
+{
+    if (N < 0)
+    {
+        Console.WriteLine("Negativo");
+    }
+    else
+    {
+        Console.WriteLine("Positivo");
+            }
+}
+if (N%2 == 1)
+{
+    Console.WriteLine("Impar");
+}
+else
+{
+    Console.WriteLine("Par");
+}
